@@ -421,7 +421,7 @@ void setNextFigure(int p[][N])
         case  9: // gregor
         case 10: // kerschbaumer
         case 11: p[3][3] = YELLOW; p[2][3] = YELLOW; p[3][2] = YELLOW; p[2][4] = YELLOW; break;
-        case 12: // arnold
+        case 12: p[3][3] = GREEN; p[1][1] = GREEN; p[1][2] = GREEN; p[1][3] = GREEN; break;// ArnoldBruckman
         case 13:// tobias
         case 14: // seracin
         case 15: p[2][2] = BLUE; p[2][3] = BLUE; p[2][4] = BLUE; p[4][2] = BLUE; p[4][3] = BLUE; p[4][4] = BLUE; p[3][4] = BLUE; break;
